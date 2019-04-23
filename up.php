@@ -1,0 +1,12 @@
+<html>
+<head><titile>FileUpload</title></head>
+<body>
+<form enctype="multipart/form-data" action="upload.php" method="post">
+<fieldset>
+<legend><font size="2">Please Choose Image File:</legend>
+File:<input type="file" name="userfile">
+<input type="submit" name="upload" value="upload">
+</fieldset>
+</form>
+</body>
+</html>
